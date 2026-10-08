@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(21, 56, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #6366f1;
+}
+
+.name {
+    font-size: 1.25rem;
+    color:rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 0.875;
+    color:rgb(30, 56, 255);
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.btn-social {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: rgb(71, 164, 251);
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.2 ease;
+}
+
+.btn-social:hover {
+    background-color: #06e6ff;
+    color:#111827;
+}
+
+.btn-color {
+    display: block;
+    text-decoration: none;
+    background-color: #6366f1;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9rem
+    transition background-color 0.2s ease;
+}
+
+.btn-contact:hover {
+    background-color:#4f46e5;
+}
